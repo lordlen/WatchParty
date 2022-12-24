@@ -1,0 +1,24 @@
+{
+  "name": "Watch Party 2",
+  "description": "Watch with your friends",
+  "version": "1.1",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/",
+    "https://*/"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [ "join-alert.wav", "message-alert.mp3" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
+}
