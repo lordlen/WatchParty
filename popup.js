@@ -125,8 +125,8 @@ function hostOrJoin(myName, hostId) {
 	chatContainer.style['background-color'] = 'black';
 	chatContainer.style.position = 'absolute';
 	chatContainer.style.height = 'calc(100% - 150px)';
-	chatContainer.style.width = '20%';
-	chatContainer.style.left = '80%';
+	chatContainer.style.width = '10%';
+	chatContainer.style.left = '90%';
 	chatContainer.style.top = '0px';
 	chatContainer.style.padding = '10px';
 	chatContainer.style['z-index'] = 3;
